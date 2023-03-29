@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    script(type="module" src='/script/chart.mjs.js')
+    style
+      include /css/style.css
+    title= title
+  body
+    header
+      h1 L'évolution des mariages de 2017 à 2020 
+    section
+      h2 Les différents types de mariages
+      section#typesmariage
+        section#graphmar
+          p(class="tailletxt") 2017
+          canvas#myChart4(width="200" height="300")
+          <p id="totoF2017"></p>
+          <p id="totoH2017"></p>
+          <p id="totoHF2017"></p>
+
+        section#graphmar
+          p(class="tailletxt") 2018
+          canvas#myChart3(width="200" height="300")
+          <p id="totoF2018"></p>
+          <p id="totoH2018"></p>
+          <p id="totoHF2018"></p>
+
+        section#graphmar
+          p(class="tailletxt") 2019
+          canvas#myChart2(width="200" height="300")
+          <p id="totoF2019"></p>
+          <p id="totoH2019"></p>
+          <p id="totoHF2019"></p>
+
+
+        section#graphmar
+          p(class="tailletxt") 2020
+          canvas#myChart(width="200" height="300")
+          <p id="totoF2020"></p>
+          <p id="totoH2020"></p>
+          <p id="totoHF2020"></p>
+
+    section
+      h2 Le nombre de mariages de 2017 à 2020 en France
+      canvas(class="milieu")#myChart5
+      p(class="tailletxt") On peut expliquer la chute du nombre de mariages en 2020 par l'épidémie du COVID-19 qui a touché le monde entier et a eu pour conséquences les confinements qui ont freiné le nombre de mariage pendant cette année.
+
+    section
+      h2 Le nombre de mariages de 2017 à 2020 dans les Bouches-du-Rhône
+      canvas(class="milieu")#myChart6
+      p(class="tailletxt") Comme constaté dans le graphique précédent on voit une baisse en 2020 lié au Covid-19
+
+
+
+

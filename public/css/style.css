@@ -1,0 +1,42 @@
+body {
+  margin: 2rem;
+  font: 12px system-ui;
+
+}
+
+#typesmariage{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#graphmar{
+  display: flex-column;
+
+}
+
+section{
+  margin-top:50px;
+  text-align: center;
+}
+
+.tailletxt{
+  font-size:24px ;
+}
+
+h1{
+  font-size: 45px;
+}
+
+
+h2{
+  font-size:36px;
+}
+
+.milieu{
+  width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
